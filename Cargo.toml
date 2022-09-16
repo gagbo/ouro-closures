@@ -1,0 +1,10 @@
+[package]
+name = "ouro_closures"
+description = "Preparatory PoC to assess ouroboros usage to solve closure capture tracing issue in R7"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ouroboros = "0.15.4"
