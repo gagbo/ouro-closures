@@ -21,6 +21,7 @@ struct C {
     fun: Box<dyn Fn(A) -> B + 'this>,
 }
 
+#[autometrics]
 fn main() {
     let foo = CBuilder {
         captures: A {
